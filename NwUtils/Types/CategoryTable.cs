@@ -79,6 +79,5 @@ namespace NwUtils.Types
                 throw new ArgumentException($"Column '{category}' already exists in the table.");
             _values[category] = properties;
         }
-
     }
 }
